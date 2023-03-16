@@ -55,10 +55,10 @@ if ready == "Y":
         averageResponseTime = totalMS / repetitions
         
         if interval < newRecord:
-            print("New newRecord:", interval, "miliseconds!")
+            print("New record:", interval, "milliseconds!")
             newRecord = interval
         else:
-            print("Your response time was", interval, "miliseconds.")
+            print("Your response time was", interval, "milliseconds.")
         print("")
         print("You have played", repetitions, "rounds with an average of", averageResponseTime, "\b.")
         print("")
@@ -68,6 +68,3 @@ if ready == "Y":
         if playAgain != "Y":
             print("Thanks for playing!")
             break
-        
-    
-
